@@ -1,6 +1,6 @@
 <?php include 'log/header.php'?>
 
-
+<script src="js/funcion.js"></script>
 
 
 
@@ -30,50 +30,37 @@
         <tbody>
             <tr class="">
                 <td scope="row"><b>PRODUCTOS:</b></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td id="demo1"></td>
+                <td id="demo2"></td>
+                <td id="demo3"></td>
+                <td id="demo4"></td>
+                <td id="demo5"></td>
             </tr>
             <tr class="">
                 <td scope="row"><b>GASTOS:</b></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td id="gasto1"></td>
+                <td id="gasto2"></td>
+                <td id="gasto3"></td>
+                <td id="gasto4"></td>
+                <td id="gasto5"></td>
             
             </tr>
         </tbody>
     </table>
 </div>
 
-<button type="button" class="btn btn-danger">MIS COMPRAS</button>
+<button type="button" class="btn btn-danger" onclick="funcion1()">MIS COMPRAS</button>
 
-<div style="padding:20px; background-color: beige; border: 2px solid black; height:200px; width:350px; float: right">
+<div style="padding:20px; background-color: grey; border: 2px solid black; height:200px; width:370px; float: right">
 
 
 <p style="text-align: center">Gastos semanales</p>
 <br>
-<p>Gastos totales:</p>
+<p>Gastos totales: </p>
+<p id="gastoTotal"></p>
 
 </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <?php include 'log/footer.php'?>

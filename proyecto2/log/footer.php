@@ -23,7 +23,7 @@
             <!-- place navbar here -->
         </header>
         <main>
-<div style="background-color: blue; padding:50px; margin-top:400px;">
+<div style="background-color: blue; padding:30px; margin-top:404px;">
 
 <h4 style="text-align: center; color:white">APP-COMPRAS</h4>
 </div>
